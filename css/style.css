@@ -1,0 +1,183 @@
+body {
+  background-color: wheat;
+}
+
+.clock-container {
+  font-family: monospace;
+  font-size: 24px;
+  position: relative;
+  background-color: whitesmoke;
+  height: 10em;
+  width: 10em;
+  border-radius: 50%;
+  margin: 0 auto;
+  box-shadow: 0 0 5px;
+  border: 10px solid;
+}
+
+.clock-number {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.hour-number {
+  padding: 5px;
+}
+
+.clock-number-1 {
+  rotate: 30deg;
+}
+
+.clock-number-1 > div {
+  rotate: -30deg;
+}
+
+.clock-number-2 {
+  rotate: 60deg;
+}
+
+.clock-number-2 > div {
+  rotate: -60deg;
+}
+
+.clock-number-3 {
+  rotate: 90deg;
+}
+
+.clock-number-3 > div {
+  rotate: -90deg;
+}
+
+.clock-number-4 {
+  rotate: 120deg;
+}
+
+.clock-number-4 > div {
+  rotate: -120deg;
+}
+
+.clock-number-5 {
+  rotate: 150deg;
+}
+
+.clock-number-5 > div {
+  rotate: -150deg;
+}
+
+.clock-number-6 {
+  rotate: 180deg;
+}
+
+.clock-number-6 > div {
+  rotate: -180deg;
+}
+
+.clock-number-7 {
+  rotate: 210deg;
+}
+
+.clock-number-7 > div {
+  rotate: -210deg;
+}
+
+.clock-number-8 {
+  rotate: 240deg;
+}
+
+.clock-number-8 > div {
+  rotate: -240deg;
+}
+
+.clock-number-9 {
+  rotate: 270deg;
+}
+
+.clock-number-9 > div {
+  rotate: -270deg;
+}
+
+.clock-number-10 {
+  rotate: 300deg;
+}
+
+.clock-number-10 > div {
+  rotate: -300deg;
+}
+
+.clock-number-11 {
+  rotate: 330deg;
+}
+
+.clock-number-11 > div {
+  rotate: -330deg;
+}
+
+.clock-number-12 {
+  rotate: 360deg;
+}
+
+.clock-number-12 > div {
+  rotate: -360deg;
+}
+
+.time-hand {
+  position: relative;
+  top: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  rotate: -90deg;
+}
+
+.time-hand > * {
+  position: absolute;
+  align-items: center;
+  display: flex;
+}
+
+.dot-hand {
+  background-color: black;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.hour-hand {
+  width: 50%;
+  rotate: 10deg;
+}
+
+.minute-hand {
+  width: 70%;
+  rotate: 20deg;
+}
+
+.second-hand {
+  width: 90%;
+  rotate: 150deg;
+}
+
+.blank-space {
+  width: 50%;
+}
+
+.needle {
+  width: 50%;
+  border-radius: 10px;
+}
+.hour-hand > .needle {
+  background-color: rgb(72, 110, 167);
+  height: 5px;
+}
+
+.minute-hand > .needle {
+  background-color: rgb(215, 43, 186);
+  height: 3px;
+}
+
+.second-hand > .needle {
+  background-color: rgb(236, 126, 9);
+  height: 1px;
+}
